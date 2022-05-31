@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/emre/Desktop/Kovan/backend/backend.csproj": {}
+  },
+  "projects": {
+    "/home/emre/Desktop/Kovan/backend/backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emre/Desktop/Kovan/backend/backend.csproj",
+        "projectName": "backend",
+        "projectPath": "/home/emre/Desktop/Kovan/backend/backend.csproj",
+        "packagesPath": "/home/emre/.nuget/packages/",
+        "outputPath": "/home/emre/Desktop/Kovan/backend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emre/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.MicrosoftDI": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.Server.Authorization.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Ui.Altair": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.SystemTextJson": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
