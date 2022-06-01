@@ -1,11 +1,11 @@
+# Frontend
 
 yarn install
 
 yarn start 
 
-for the frontend
+# Backend
 
 dotnet restore 
-dotnet run
 
-for the backend
+dotnet run
